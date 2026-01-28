@@ -13,6 +13,7 @@ public record UserResponse(UUID id,
                             String password,
                             String cep,
                             Role role,
-                            Instant createdAt) {
+                            Instant createdAt,
+                            Instant uptadeAt) {
     
 }
